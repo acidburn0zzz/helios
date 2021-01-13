@@ -22,7 +22,7 @@ Gem::Specification.new do |s|
   s.add_dependency "rack-newsstand", "~> 0.1"
   s.add_dependency "rack-scaffold", ">= 0.0.3"
   s.add_dependency "core_data"
-  s.add_dependency "json", "~> 1.7"
+  s.add_dependency "json", ">= 1.7", "< 3.0"
   s.add_dependency "coffee-script", "~> 2.2"
   s.add_dependency "sinatra", "~> 1.3"
   s.add_dependency "sinatra-contrib", "~> 1.3"
